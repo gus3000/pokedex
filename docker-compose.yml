@@ -6,8 +6,8 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: "no"
     environment:
-      MYSQL_ROOT_PASSWORD: mypasswd # à changer
-      MYSQL_DATABASE: pokedex # à changer
+      MYSQL_ROOT_PASSWORD: passwd
+      MYSQL_DATABASE: pokedex
     ports:
       - 3306:3306
 

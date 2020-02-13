@@ -1,0 +1,41 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf8"/>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/types.css">
+    <title>Pokedex</title>
+</head>
+<body>
+<h1>Pokedex3000</h1>
+<div class="pokegrid">
+
+    <div class="pokeitem">
+        <div class="pokeimage-container">
+            <a href="/<%= pokemon.pokemon_id %>">
+                <img class="pokeimage"
+                     src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/<%= String(pokemon.pokemon_id).padStart(3, '0') %>.png"
+                     alt="<%= pokemon.name %>"/>
+            </a>
+        </div>
+        <div class="pokeinfo">
+            <div class="pokeid"><%= pokemon.pokemon_id %></div>
+            <a class="pokelink" href="/<%= pokemon.pokemon_id %>">
+                <div class="pokename"><%= pokemon.name %></div>
+            </a>
+            <div class="type background-color-<%= pokemon.type1.toLowerCase() %>"><%= pokemon.type1 %></div>
+            <% if (pokemon.type2) {
+            %>
+                <div class="type background-color-<%= pokemon.type2.toLowerCase() %>"><%= pokemon.type2 %></div>
+            <%
+            }
+            %>
+        </div>
+
+    </div>
+</div>
+<a href="?limit=151">
+    <div id="loader" class="button">Load more</div>
+</a>
+</body>
+</html>

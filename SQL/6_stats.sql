@@ -4,4 +4,4 @@ VALUES (1, 'HP')
      , (3, 'Defense')
      , (4, 'Special Attack')
      , (5, 'Special Defense')
-     , (6, 'Speed')
+     , (6, 'Speed');
