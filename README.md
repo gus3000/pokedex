@@ -1,4 +1,4 @@
-# Pokedex3000
+# Pokedex3000 ![Node.js CI](https://github.com/gus3000/pokedex/workflows/Node.js%20CI/badge.svg)
 
 This is a simple Pokedex app, attempting to mirror https://www.pokemon.com/us/pokedex/.
 
