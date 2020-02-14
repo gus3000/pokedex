@@ -1,0 +1,52 @@
+@font-face {
+    font-family:'Flexo-Thin';
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_0_0.eot");
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_0_0.eot?#iefix") format("embedded-opentype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_0_0.woff") format("woff"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_0_0.ttf") format("truetype")
+}
+@font-face {
+    font-family:'Flexo-Regular';
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_1_0.eot");
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_1_0.eot?#iefix") format("embedded-opentype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_1_0.woff") format("woff"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_1_0.ttf") format("truetype")
+}
+@font-face {
+    font-family:'Flexo-Medium';
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_2_0.eot");
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_2_0.eot?#iefix") format("embedded-opentype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_2_0.woff") format("woff"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_2_0.ttf") format("truetype")
+}
+@font-face {
+    font-family:'Flexo-Light';
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_3_0.eot");
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_3_0.eot?#iefix") format("embedded-opentype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_3_0.woff") format("woff"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_3_0.ttf") format("truetype")
+}
+@font-face {
+    font-family:'Flexo-Demi';
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_4_0.eot");
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_4_0.eot?#iefix") format("embedded-opentype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_4_0.woff") format("woff"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_4_0.ttf") format("truetype")
+}
+@font-face {
+    font-family:'Flexo-Bold';
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_5_0.eot");
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_5_0.eot?#iefix") format("embedded-opentype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_5_0.woff") format("woff"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_5_0.ttf") format("truetype")
+}
+@font-face {
+    font-family:"icons";
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/icons.eot?456e640c93ca1d54e86948898799edfa");
+    src:url("https://assets.pokemon.com/static2/_ui/fonts/icons.eot?#iefix") format("embedded-opentype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/icons.woff?456e640c93ca1d54e86948898799edfa") format("woff"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/icons.ttf?456e640c93ca1d54e86948898799edfa") format("truetype"),
+    url("https://assets.pokemon.com/static2/_ui/fonts/icons.svg?456e640c93ca1d54e86948898799edfa#icons") format("svg");
+    font-weight:normal;
+    font-style:normal
+}

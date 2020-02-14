@@ -1,7 +1,8 @@
 @font-face {
     font-family: "Flexo-Demi";
-    src: url("/fonts/285B7A_4_0.woff") format("woff");
+    src: url("https://assets.pokemon.com/static2/_ui/fonts/285B7A_4_0.woff") format("woff");
 }
+
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -15,18 +16,6 @@ h1 {
     text-align: center;
 }
 
-.pokegrid {
-    width: 70%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-
-.pokeitem {
-    width: 80%;
-    margin-bottom: 5%;
-}
-
 .pokeimage-container {
     text-align: center;
     margin: auto;
@@ -34,6 +23,7 @@ h1 {
     background: #e8e8e8;
     border-radius: 5px;
 }
+
 .pokeimage-container img {
     width: 100%;
 }
@@ -46,10 +36,18 @@ h1 {
     color: black;
     text-decoration: none;
 }
+
 .pokename {
     font-size: 23px;
-    font-family: "Flexo-Demi",arial,sans-serif;
+    font-family: "Flexo-Demi", arial, sans-serif;
     text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.pokeitem {
+    width: 80%;
+    margin-bottom: 5%;
 }
 
 .pokeid:before {
@@ -77,4 +75,78 @@ h1 {
 
 #loader {
     alignment: center;
+}
+
+.infoTitle {
+    color: white;
+    font-size: 12pt;
+}
+
+.infoData {
+    font-size: 11pt;
+}
+
+.infoTitle, .infoData {
+    padding: 2%;
+}
+
+.pokegrid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.fullinfogrid {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 2%;
+    grid-template-areas: "image description" "image miscInfo" "stats typeInfo" "evolution evolution";
+}
+
+.description {
+    grid-area: description;
+    margin: auto;
+}
+
+.pokeimage-container {
+    grid-area: image;
+}
+
+.miscInfo {
+    grid-area: miscInfo;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0;
+    margin: auto;
+    padding: 5%;
+    width: 90%;
+    background: #30a7d7;
+    border-radius: 10px;
+}
+
+.typeInfo {
+    grid-area: typeInfo;
+    margin: auto;
+    width: 100%;
+}
+
+.statsTable {
+    grid-area: stats;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    grid-template-rows: auto;
+}
+
+.statName {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.statBar {
+    padding: 10px;
 }
