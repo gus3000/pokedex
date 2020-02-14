@@ -5,13 +5,23 @@ This is a simple Pokedex app, attempting to mirror https://www.pokemon.com/us/po
 ## Dependencies
 You just need `docker-compose` and `npm`, and you should be good to go.
 
-## Init
-To initialize the project, first run :
+## Initialize the project
+To initialize the project, first install all the dependencies :
 ```bash
-docker-compose up -d
+npm install
+```
+then create the database :
+```bash
+npm run dbcreate
 ``` 
-then run execute all SQL files, in alphabetical order (sorry, the bash script is coming).
-then :
+then simply start the project :
 ```bash
 npm start
+```
+
+## Start the project
+`npm start` automatically starts the database, so next time you want to start the project, you only have to call it.
+You can also bring the database down manually with :
+```bash
+docker-compose down
 ```

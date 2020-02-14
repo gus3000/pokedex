@@ -6,9 +6,9 @@
     "DB_PASS": "passwd"
   },
   "scripts": {
-    "start": "npm run dbstart && nodemon ./bin/www",
+    "start": "docker-compose up -d && nodemon ./bin/www",
     "prepublish": "",
-    "dbstart": "docker-compose up -d && SQL/createDB.js"
+    "dbcreate": "docker-compose up -d && SQL/createDB.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

@@ -21,5 +21,5 @@ exports.getAllPokemon = function (callback) {
 };
 
 exports.getPokemon = function(indice, callback) {
-    callback(null);
+
 };
